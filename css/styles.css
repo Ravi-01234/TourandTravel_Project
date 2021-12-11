@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+.main{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/nat4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* hover effect to nav bar*/
+header .c1 .nav .nav-item:hover {
+background: yellow;
+color: black;
+}
+/* title*/
+.titles {
+	color: white;
+	text-align: center;
+	width: 800px;
+	margin: 0 auto;
+}
+.titles h1{
+	font-family: 'Merriweather', serif;
+	text-shadow: 1px 1px 0 black;
+	padding-top: 130px;
+}
+.titles p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 0 black;
+	padding-top: 20px;
+}
+.container-boxes{
+	margin: 0 auto ;
+	padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1000px;
+    padding-top: 100px;
+    opacity: 0.9;
+}
+.box {
+	background: #04009A;/*3E065F*/
+	margin:0 30px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 350px;
+	max-height: 180px;
+	min-height: 180px;
+	transition: ease-in;
+}
+.box:hover {
+	background: yellow;
+	transform: translateY(-20%);
+}
+.box a{
+	text-decoration: none;
+	color: black;
+}
+.icon{
+	font-size: 20px;
+	padding-bottom:100px;
+	padding-right: 25px;
+}
+.text h3 {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+	color: black;
+}
+.text p{
+	font-family: 'Roboto Slab', serif;
+	margin-top: 5px;
+	line-height: 1.5rem;
+	text-align: left;
+}
+.text {
+	padding: 5px;
+
+}
