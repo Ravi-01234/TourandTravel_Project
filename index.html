@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>                                                    <!--first Container--->
+  <header id="home">                                                    <!--first Container--->
   	<div class="container-fluid c1"> 
       <div class="row" style="background-color:#2A0944;">
                                              <!--column auto given for the logo image--->
@@ -22,13 +22,13 @@
   	  	<div class="col" style="padding-top: 25px;">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active font-weight-bold text-white" href="#" style="padding-right:50px;">Home</a>
+              <a class="nav-link active font-weight-bold text-white" href="#home" style="padding-right:50px;">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active font-weight-bold text-white" href="#" style="padding-right:50px;">About</a> 
+              <a class="nav-link active font-weight-bold text-white" href="#about" style="padding-right:50px;">About</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link active font-weight-bold text-white" href="#" style="padding-right:50px;">Contact</a>
+              <a class="nav-link active font-weight-bold text-white" href="#contact" style="padding-right:50px;">Contact</a>
             </li>
         </div>
   	  </div>
@@ -36,7 +36,7 @@
   </header>
   <section class="main">
      <section class="titles">
-        <h1>
+        <h1 class="font-weight-bold">
       ADVENTURE IS WORTHWHILE
         </h1>
         <p>
@@ -51,7 +51,7 @@
         <div class="text">
          <a href="">
           <h3 class="text-white">North Indian Tour Packages</h3>
-          <p>Book Now and visit the land of<span class="font-weight-bold"> HAVEN AND NATURE</span></p>
+          <p>Book Now and visit the <br><span class="font-weight-bold">Land Of HAVEN AND NATURE</span></p>
          </a>
         </div>
         </div>
@@ -68,13 +68,86 @@
         </div>
       </section>
   </section>
-  <!--starting of main section2-->
-  <section class="abt">
+  <!--starting of about us section2-->
+  <section class="abt" id="about">
      <div class="container-fluid c2">
-       <div class="row r1">
-          ABOUT US
-      </div>
+        <div class="row r1" style="border: 2px solid grey;background-color:#2A0944;">
+          <div class="col-auto c1" style="width: 30%;">
+            <img src="images/logo image.jpg" style="padding-top: 40px;padding-left: 20px;">
+          </div>
+          <div class="col-auto c2" style="width: 70%;">
+            <h1 class="font-weight-bold"> ABOUT US</h1>
+            <p class="text-white" style="text-shadow: 1px 1px 0 black;">
+               Travo look is the flagship leisure travel brand of Generation, in India. Known for its range of customized travel offerings, Travel Tours promises 'unbeatable' services both in pricing and quality.
+               Currently, there are over 25 Travel Tours stores across all leading cities in India Delhi-NCR, Mumbai, Pune, Ahmedabad, Chandigarh, Bangalore, Hyderabad, Cochin, Chennai and Indore among other cities.
+               <br>
+               Our mission is to Create positive change through the joy of travel and
+               over 30 years later, we’re super proud to call ourselves the world’s largest purpose-led adventure travel brand. We’re here to give back – and have a great time while doing it.
+             </p>
+          </div>
+        </div>
+        <!--row2--->
+        <div class="row r2" style="border: 2px solid grey;background-color:#2A0944;">
+           <div class="col-auto col1" style="width: 30%;padding-top: 70px;">
+             <video  src="videos/south.mp4" height="300px" width="350px" controls>
+               South India Tour Package video
+             </video>
+             <img src="images/s2.jpg">
+           </div>
+           <div class="col-auto col2" style="width: 70%;padding-top: 20px;">
+             <h3 class="font-weight-bold text-white"> South India Tour Package</h3>
+            <p class="text-white" style="text-shadow: 1px 1px 0 black;">
+               With a culture as vibrant as any, South of india is culturally dynamic. It is home to technological hubs but also varied art forms. A perfect blend of art and progress.South india tours, would truly be mosaic of the cities, as historical as Chennai, as culturally aesthetic as Kochi, as naturally blessed as Periyar, as holy as Kanchipuram and Mahabalipuram, as evolving as Mysore and Hyderabad.Visiting South reminds you of the roots that bind us all, underneath the garb of divisiveness
+               <br>
+               If you are looking for a destination where you can enjoy your vacations amidst the serenity of nature, South India is a perfect choice for you. A tour to South India will not only satiate your wanderlust but will also amuse you with beautiful landscapes, breathtaking places to visit, exciting things to do, mouth-watering cuisine, and much more.
+               </p>
+           </div>
+        </div>
+        <!--row3-->
+        <div class="row r3" style="border: 2px solid grey;background-color:#2A0944;">
+          <div class="col-auto col1" style="width: 30%;padding-top: 70px;">
+             <video  src="videos/north.mp4" height="300px" width="350px" controls>
+               North India Tour Package video
+             </video>
+             <img src="images/n2.jpg">
+           </div>
+           <div class="col-auto col2" style="width: 70%;padding-top: 20px;">
+             <h3 class="font-weight-bold text-white"> North India Tour Package</h3>
+            <p class="text-white" style="text-shadow: 1px 1px 0 black;">
+               North India Tourism gives you the glimpse of North Indian culture, heritage and traditions. North India Tourism will take you to a journey of lifetime. Through North India Tourism you will see the historical India, wild life in India, beaches of India, historical monuments of India, etc. North India Tourism shows you the religions of India, which is an important part of India. North India Tourism having various religious & spiritual tour packages for those who seek solace in this mystique land. You can explore the beauty of Himalaya through India tour and India tour will takes you to the north-east India, where the great Himalaya standing tall. North India Tourism is the journey of India. Become the part of North India Tourism and feel the Indian life through North India Tourism.
+               </p>
+           </div>
+        </div>
      </div>
   </section>
+  <!--footer-->
+  <footer class="foot" id="contact">
+    <header>
+      <div class="row r1">
+        <h1 class="font-weight-bold"> CONTACT US</h1>
+      </div>
+      <div class="row r2" style="padding-bottom: 85px;">
+        <div class="col-auto" style="width: 50%;padding-left: 250px;">
+          <h3 class="font-weight-bold text-white">NEED HELP?</h3>
+          <br>
+          <h4 class="font-weight-bold">Call Us:</h4>
+          <p class="font-weight-bold"><span><i class="fas fa-phone-alt"></i> +1 (080) 316-6902</span><br><span><i class="fas fa-mobile-alt"></i> 09815678132</span></p>
+          <h4 class="font-weight-bold">General Inquiries:</h4>
+          <p class="font-weight-bold"><i class="fas fa-envelope"></i>travolookteam7.services@gmail.com</p>
+          <h4 class="font-weight-bold">Careers:</h4>
+          <p class="font-weight-bold"><i class="fas fa-user-friends"></i>Join Our Team</p>
+        </div>
+        <div class="col-auto" style="width: 40%;padding-left: 200px;">
+          <h3 class="font-weight-bold text-white">CONNECT WITH US</h3>
+          <i class="fab fa-2x fa-facebook-square"></i><i style="padding-left: 10px;" class="fab fa-2x fa-twitter-square"></i><i class="fab fa-2x fa-instagram-square" style="padding-left: 10px;"></i><i class="fas fa-2x fa-envelope-square" style="padding-left: 10px;"></i><i class="fab fa-2x fa-youtube" style="padding-left: 10px;"></i><i class="fab fa-2x fa-blogger" style="padding-left: 10px;"></i>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <div class="row" style="background-color:#2A0944 ;">
+        <p style="font-size: 18px;padding-top: 20px;padding-left: 50px;letter-spacing: 1px;" class="text-white font-weight-bold"><em>© 2021 Travolook. All rights reserved</em></p>
+      </div>
+    </footer>
+  </footer>
 </body>
 </html>

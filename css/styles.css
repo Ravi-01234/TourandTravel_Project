@@ -84,3 +84,41 @@ color: black;
 	padding: 5px;
 
 }
+/*#about{
+	background-image: url(../images/n1.jpg);
+	background-size: cover;
+}*/
+.abt .c2 h1{
+	font-family: 'Merriweather', serif;
+	color: whitesmoke;
+	text-shadow: 1px 1px 0 black;
+	padding-left: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.abt .c2 p{
+	font-family:  'Roboto Slab', serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.abt .c2 h3{
+font-family: 'Merriweather', serif;
+	color: whitesmoke;
+	text-shadow: 1px 1px 0 black;
+	padding-left: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.foot .r1 h1{
+	font-family: 'Merriweather', serif;
+	color: whitesmoke;
+	text-shadow: 1px 1px 0 black;
+	padding-left: 550px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.foot{
+border: 2px solid grey;
+background-image: url(../images/foot.jpg);
+background-size: cover;
+}
